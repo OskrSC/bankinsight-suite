@@ -1,5 +1,11 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="BankInsight Suite",
+    page_icon="🏦",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 # ── Registro de páginas ───────────────────────────────────────────────────────
 pg_home     = st.Page("home.py",                           title="Inicio",                  icon="🏦", default=True)
 pg_churn    = st.Page("pages/1_Churn.py",                  title="Predicción de Churn",     icon="📉", url_path="churn")

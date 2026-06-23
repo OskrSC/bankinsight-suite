@@ -1,12 +1,5 @@
 import streamlit as st
 
-st.set_page_config(
-    page_title="BankInsight Suite",
-    page_icon="🏦",
-    layout="wide",
-    initial_sidebar_state="expanded",
-)
-
 st.markdown("# 🏦 BankInsight Suite")
 st.markdown(
     "**Plataforma de Analítica para Banca y Gestión de Clientes** — "
